@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artist Co. | Bold & Easy Coloring Books for Kids by Marvin Andrew</title>
+  
+  <!-- SEO & Social Sharing (Pinterest / OpenGraph) -->
+  <meta name="description" content="Parent and child friendly coloring books designed for toddlers & preschoolers (Ages 3-8). Extra-thick 3pt lines, zero bleed-through, and cute kawaii animal adventures by Marvin Andrew & Lily Sparkles.">
+  <meta name="keywords" content="kids coloring books, toddler coloring books, bold and easy coloring, artist co, marvin andrew, screen free activities, preschool coloring">
+  <meta name="author" content="Marvin Andrew, Artist Co.">
+  
+  <!-- Open Graph for Pinterest & Facebook -->
+  <meta property="og:title" content="Artist Co. | Bold & Easy Coloring Books for Kids">
+  <meta property="og:description" content="Discover 7 adorable, frustration-free coloring books for toddlers & kids ages 3-8. Free printables & instant Amazon Prime ordering!">
+  <meta property="og:image" content="assets/pinterest/pin_1_bold_easy_coloring.jpg">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Artist Co. • Creative Books for Kids">
+  <meta name="twitter:description" content="Frustration-free bold line coloring books for toddlers & preschoolers.">
+  <meta name="twitter:image" content="assets/pinterest/pin_1_bold_easy_coloring.jpg">
+  
+  <link rel="icon" type="image/png" href="assets/logos/favicon.png">
+  
+  <!-- Google Fonts: Fredoka & Quicksand for playful child & parent friendly typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            fredoka: ['Fredoka', 'sans-serif'],
+            quicksand: ['Quicksand', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              pink: '#FF7B9C',
+              coral: '#FF6B6B',
+              yellow: '#FFD166',
+              mint: '#06D6A0',
+              blue: '#4D96FF',
+              lavender: '#A06CD5',
+              cream: '#FFFDF9',
+              dark: '#2D3142'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-[#FFFDF9] font-quicksand text-brand-dark antialiased selection:bg-brand-pink selection:text-white">
+
+  <!-- TOP ANNOUNCEMENT BANNER -->
+  <div class="bg-gradient-to-r from-brand-pink via-brand-yellow to-brand-mint text-brand-dark font-fredoka py-2 px-4 text-center text-sm md:text-base font-semibold shadow-sm">
+    <span>🎨 Welcome Little Artists! ✨ Get 5 Free Printable Coloring Pages Today • Available on Amazon Prime 🚚</span>
+  </div>
+
+  <!-- NAVIGATION BAR -->
+  <header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-gray-100 shadow-sm transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <!-- Logo -->
+      <a href="#home" class="flex items-center gap-3 group">
+        <img src="assets/logos/artist_co_round.jpg" alt="Artist Co. Logo" class="w-12 h-12 rounded-full shadow-md border-2 border-brand-yellow group-hover:scale-105 transition-transform duration-300">
+        <div>
+          <span class="font-fredoka text-2xl font-bold bg-gradient-to-r from-brand-blue via-brand-lavender to-brand-pink bg-clip-text text-transparent">Artist Co.</span>
+          <span class="block text-xs font-bold text-gray-400 tracking-wider">BY MARVIN ANDREW</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="hidden md:flex items-center gap-8 font-fredoka text-lg font-medium text-gray-700">
+        <a href="#catalog" class="hover:text-brand-blue transition-colors">Our Books</a>
+        <a href="#coloring-corner" class="hover:text-brand-pink transition-colors flex items-center gap-1.5">
+          <span>Kids Coloring Pad</span>
+          <span class="bg-brand-yellow/30 text-amber-700 text-xs px-2 py-0.5 rounded-full font-bold">Play!</span>
+        </a>
+        <a href="#free-printables" class="hover:text-brand-mint transition-colors">Free Printables</a>
+        <a href="#about" class="hover:text-brand-lavender transition-colors">About Us</a>
+        <a href="#pinterest" class="hover:text-red-500 transition-colors">Pinterest</a>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="flex items-center gap-3">
+        <a href="#free-printables" class="hidden sm:inline-flex items-center gap-2 bg-brand-yellow hover:bg-yellow-400 text-gray-900 font-fredoka px-4 py-2 rounded-full font-bold text-sm shadow-sm hover:shadow transition-all transform hover:-translate-y-0.5">
+          <span>🎁 Free Pack</span>
+        </a>
+        <a href="#catalog" class="bg-brand-pink hover:bg-pink-600 text-white font-fredoka px-5 py-2.5 rounded-full font-bold text-sm shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5 flex items-center gap-2">
+          <span>Shop on Amazon</span>
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="relative overflow-hidden pt-12 pb-20 md:py-24 bg-gradient-to-b from-[#FFF5F7] via-[#FFFDF9] to-[#FFFDF9]">
+    <!-- Decorative Floating Doodles -->
+    <div class="absolute top-10 left-5 text-4xl opacity-30 animate-bounce duration-1000">⭐</div>
+    <div class="absolute top-20 right-10 text-3xl opacity-30 animate-pulse">✨</div>
+    <div class="absolute bottom-10 left-1/4 text-4xl opacity-20">🖍️</div>
+    <div class="absolute top-1/2 right-5 text-4xl opacity-25">🎨</div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <!-- Hero Text -->
+        <div class="lg:col-span-7 text-center lg:text-left space-y-6">
+          <div class="inline-flex items-center gap-2 bg-white px-4 py-1.5 rounded-full shadow-sm border border-brand-pink/20 text-brand-pink font-fredoka font-bold text-sm">
+            <span>✨ The Little Artists Bold & Easy Series</span>
+          </div>
+
+          <h1 class="font-fredoka text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-gray-900">
+            Where Little Imaginations <br class="hidden sm:inline">
+            <span class="bg-gradient-to-r from-brand-pink via-brand-coral to-brand-yellow bg-clip-text text-transparent">Color with Pure Joy!</span>
+          </h1>
+
+          <p class="font-quicksand text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto lg:mx-0 font-medium leading-relaxed">
+            Frustration-free coloring books created especially for <b>toddlers & preschoolers (Ages 3–8)</b>. Designed with <b>extra-thick 3pt outlines</b>, single-sided bleed-guard backing, and gentle wholesome characters kids fall in love with.
+          </p>
+
+          <!-- Key Feature Pills -->
+          <div class="flex flex-wrap justify-center lg:justify-start gap-3 pt-2">
+            <span class="bg-white px-3.5 py-1.5 rounded-full border border-gray-200 text-sm font-semibold text-gray-700 shadow-sm flex items-center gap-1.5">
+              <span class="text-brand-pink">●</span> 50+ Single-Sided Pages
+            </span>
+            <span class="bg-white px-3.5 py-1.5 rounded-full border border-gray-200 text-sm font-semibold text-gray-700 shadow-sm flex items-center gap-1.5">
+              <span class="text-brand-mint">●</span> Zero Marker Bleed-Through
+            </span>
+            <span class="bg-white px-3.5 py-1.5 rounded-full border border-gray-200 text-sm font-semibold text-gray-700 shadow-sm flex items-center gap-1.5">
+              <span class="text-brand-blue">●</span> Step-by-Step Drawing Lessons
+            </span>
+            <span class="bg-white px-3.5 py-1.5 rounded-full border border-gray-200 text-sm font-semibold text-gray-700 shadow-sm flex items-center gap-1.5">
+              <span class="text-brand-yellow">●</span> Amazon Prime Delivery
+            </span>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+            <a href="#catalog" class="w-full sm:w-auto bg-brand-pink hover:bg-pink-600 text-white font-fredoka text-lg px-8 py-4 rounded-full font-bold shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 text-center flex items-center justify-center gap-2">
+              <span>Explore All 7 Books</span>
+              <span>➔</span>
+            </a>
+            <a href="#free-printables" class="w-full sm:w-auto bg-white hover:bg-gray-50 border-2 border-brand-mint text-brand-mint hover:text-emerald-600 font-fredoka text-lg px-7 py-3.5 rounded-full font-bold shadow-sm hover:shadow transition-all text-center flex items-center justify-center gap-2">
+              <span>Download 5 Free Pages</span>
+              <span>📥</span>
+            </a>
+          </div>
+
+          <!-- Social Proof -->
+          <div class="pt-4 flex items-center justify-center lg:justify-start gap-3 text-sm text-gray-500 font-medium">
+            <div class="flex text-amber-400 text-lg">★★★★★</div>
+            <span><b>4.9 / 5 Stars</b> • Loved by 1,200+ Parents, Preschool Teachers & Homeschoolers</span>
+          </div>
+        </div>
+
+        <!-- Hero Visual: 3D Book Showcase Carousel -->
+        <div class="lg:col-span-5 relative flex justify-center">
+          <div class="relative w-full max-w-md">
+            <!-- Glow background -->
+            <div class="absolute -inset-4 bg-gradient-to-r from-brand-pink/20 to-brand-yellow/30 rounded-3xl filter blur-xl opacity-70"></div>
+            
+            <div class="relative bg-white p-4 rounded-3xl shadow-2xl border-4 border-white">
+              <img id="hero-cover-img" src="assets/covers/book_1_front.jpg" alt="Cute & Cozy Little Animals Coloring Book" class="w-full h-auto rounded-2xl shadow-md transition-all duration-500 transform hover:scale-[1.02]">
+              
+              <!-- Floating Mini Badges -->
+              <div class="absolute -top-4 -right-4 bg-brand-yellow text-brand-dark font-fredoka text-xs font-bold px-3 py-1.5 rounded-full shadow-lg border-2 border-white transform rotate-6">
+                BESTSELLER #1 🏆
+              </div>
+              <div class="absolute -bottom-4 -left-4 bg-brand-mint text-white font-fredoka text-xs font-bold px-3.5 py-1.5 rounded-full shadow-lg border-2 border-white transform -rotate-3">
+                AGES 3–8 🎨
+              </div>
+            </div>
+
+            <!-- Thumbnail Carousel Switcher -->
+            <div class="flex justify-center gap-2 mt-6">
+              <button onclick="switchHeroCover('assets/covers/book_1_front.jpg', 'Book 1: Little Animals')" class="w-10 h-10 rounded-full border-2 border-brand-pink overflow-hidden shadow-sm hover:scale-110 transition-transform">
+                <img src="assets/covers/book_1_front.jpg" class="w-full h-full object-cover">
+              </button>
+              <button onclick="switchHeroCover('assets/covers/book_2_front.jpg', 'Book 2: Sweet Treats')" class="w-10 h-10 rounded-full border-2 border-brand-pink overflow-hidden shadow-sm hover:scale-110 transition-transform">
+                <img src="assets/covers/book_2_front.jpg" class="w-full h-full object-cover">
+              </button>
+              <button onclick="switchHeroCover('assets/covers/book_3_front.jpg', 'Book 3: Dino Adventures')" class="w-10 h-10 rounded-full border-2 border-brand-pink overflow-hidden shadow-sm hover:scale-110 transition-transform">
+                <img src="assets/covers/book_3_front.jpg" class="w-full h-full object-cover">
+              </button>
+              <button onclick="switchHeroCover('assets/covers/book_4_front.jpg', 'Book 4: Ocean Friends')" class="w-10 h-10 rounded-full border-2 border-brand-pink overflow-hidden shadow-sm hover:scale-110 transition-transform">
+                <img src="assets/covers/book_4_front.jpg" class="w-full h-full object-cover">
+              </button>
+              <button onclick="switchHeroCover('assets/covers/book_5_front.jpg', 'Book 5: Vehicles')" class="w-10 h-10 rounded-full border-2 border-brand-pink overflow-hidden shadow-sm hover:scale-110 transition-transform">
+                <img src="assets/covers/book_5_front.jpg" class="w-full h-full object-cover">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BRAND BANNER / WHY PARENTS LOVE ARTIST CO. -->
+  <section class="py-12 bg-white border-y border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <span class="text-brand-blue font-fredoka font-bold text-sm uppercase tracking-wider">The Artist Co. Difference</span>
+        <h2 class="font-fredoka text-3xl font-bold text-gray-900 mt-1">Built to End Coloring Frustration for Little Hands</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
+        <!-- Feature 1 -->
+        <div class="bg-pink-50/60 p-6 rounded-2xl border border-pink-100 hover:shadow-md transition-shadow">
+          <div class="text-4xl mb-3">🖍️</div>
+          <h3 class="font-fredoka text-xl font-bold text-gray-800">Extra-Thick 3pt Outlines</h3>
+          <p class="text-gray-600 text-sm mt-2">Big, bold borders make it easy for small fingers to stay inside the lines and build creative confidence.</p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="bg-blue-50/60 p-6 rounded-2xl border border-blue-100 hover:shadow-md transition-shadow">
+          <div class="text-4xl mb-3">📄</div>
+          <h3 class="font-fredoka text-xl font-bold text-gray-800">Single-Sided Bleed Guard</h3>
+          <p class="text-gray-600 text-sm mt-2">Every illustration has a dedicated blank protective back. Markers, gel pens, and paint sticks will never ruin the next page!</p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="bg-amber-50/60 p-6 rounded-2xl border border-amber-100 hover:shadow-md transition-shadow">
+          <div class="text-4xl mb-3">✏️</div>
+          <h3 class="font-fredoka text-xl font-bold text-gray-800">Step-by-Step Drawing</h3>
+          <p class="text-gray-600 text-sm mt-2">Fun, simple 4-step tutorials teach children how to sketch puppies, cupcakes, dinos, and sea turtles from scratch.</p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="bg-emerald-50/60 p-6 rounded-2xl border border-emerald-100 hover:shadow-md transition-shadow">
+          <div class="text-4xl mb-3">🏆</div>
+          <h3 class="font-fredoka text-xl font-bold text-gray-800">Official Awards & Palette</h3>
+          <p class="text-gray-600 text-sm mt-2">Features a dedicated color test swatch page and a proud completion certificate to celebrate your child's achievement!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOK CATALOG SHOWCASE -->
+  <section id="catalog" class="py-20 bg-[#FFFDF9]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div>
+          <span class="text-brand-pink font-fredoka font-bold text-sm tracking-wider uppercase">Complete Catalog</span>
+          <h2 class="font-fredoka text-3xl sm:text-4xl font-bold text-gray-900 mt-1">Explore the Little Artists Collection</h2>
+          <p class="text-gray-600 mt-2 font-medium">All 7 titles available now on Amazon Prime in print-ready 8.5" x 11" paperback.</p>
+        </div>
+
+        <!-- Theme Filter Tabs -->
+        <div class="flex flex-wrap gap-2 mt-6 md:mt-0" id="filter-buttons">
+          <button onclick="filterBooks('all')" class="filter-btn active bg-brand-pink text-white px-4 py-2 rounded-full font-fredoka font-bold text-sm transition-all shadow-sm">All (7)</button>
+          <button onclick="filterBooks('animals')" class="filter-btn bg-white hover:bg-gray-100 text-gray-700 px-4 py-2 rounded-full font-fredoka font-bold text-sm transition-all border border-gray-200">Animals</button>
+          <button onclick="filterBooks('treats')" class="filter-btn bg-white hover:bg-gray-100 text-gray-700 px-4 py-2 rounded-full font-fredoka font-bold text-sm transition-all border border-gray-200">Treats & Food</button>
+          <button onclick="filterBooks('dinos')" class="filter-btn bg-white hover:bg-gray-100 text-gray-700 px-4 py-2 rounded-full font-fredoka font-bold text-sm transition-all border border-gray-200">Dinos & Magic</button>
+          <button onclick="filterBooks('vehicles')" class="filter-btn bg-white hover:bg-gray-100 text-gray-700 px-4 py-2 rounded-full font-fredoka font-bold text-sm transition-all border border-gray-200">Vehicles</button>
+        </div>
+      </div>
+
+      <!-- Book Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="book-grid">
+
+        <!-- BOOK 1: Little Animals -->
+        <div class="book-card group bg-white rounded-3xl p-5 shadow-md hover:shadow-xl border border-gray-100 transition-all duration-300 flex flex-col justify-between" data-category="animals">
+          <div>
+            <div class="relative overflow-hidden rounded-2xl bg-pink-50 mb-5">
+              <img src="assets/covers/book_1_front.jpg" alt="Book 1: Cute & Cozy Little Animals" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
+              <span class="absolute top-3 left-3 bg-brand-yellow text-gray-900 font-fredoka font-bold text-xs px-3 py-1 rounded-full shadow">Series Book 1</span>
+              <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-brand-pink font-fredoka font-bold text-xs px-3 py-1 rounded-full shadow">52 Pages</span>
+            </div>
+            <div class="flex items-center gap-1.5 text-amber-400 text-sm mb-1">★★★★★ <span class="text-gray-400 text-xs font-semibold">(240+ reviews)</span></div>
+            <h3 class="font-fredoka text-xl font-bold text-gray-900 group-hover:text-brand-pink transition-colors">Cute & Cozy Little Animals</h3>
+            <p class="text-xs text-brand-blue font-bold mt-0.5">By Marvin Andrew • Illustrated by Lily Sparkles</p>
+            <p class="text-gray-600 text-sm mt-3 leading-relaxed">Adorable golden puppies, playful red pandas in cars, safari elephants, and friendly ocean companions.</p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between gap-2">
+            <button onclick="openLookInside('Book 1: Cute & Cozy Little Animals', ['assets/samples/book_1_sample_1.png', 'assets/samples/book_1_sample_2.png'])" class="bg-gray-100 hover:bg-gray-200 text-gray-700 font-fredoka text-xs px-3.5 py-2.5 rounded-full font-bold transition-colors">
+              🔍 Look Inside
+            </button>
+            <a href="https://www.amazon.com/dp/PRI-GVKY08VBEP8" target="_blank" class="bg-brand-pink hover:bg-pink-600 text-white font-fredoka text-xs px-4 py-2.5 rounded-full font-bold shadow hover:shadow-md transition-all flex items-center gap-1">
+              <span>Buy on Amazon $6.99</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- BOOK 2: Sweet Treats & Snacks -->
+        <div class="book-card group bg-white rounded-3xl p-5 shadow-md hover:shadow-xl border border-gray-100 transition-all duration-300 flex flex-col justify-between" data-category="treats">
+          <div>
+            <div class="relative overflow-hidden rounded-2xl bg-pink-50 mb-5">
+              <img src="assets/covers/book_2_front.jpg" alt="Book 2: Sweet Treats & Snacks" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
+              <span class="absolute top-3 left-3 bg-brand-pink text-white font-fredoka font-bold text-xs px-3 py-1 rounded-full shadow">Series Book 2</span>
+              <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-brand-pink font-fredoka font-bold text-xs px-3 py-1 rounded-full shadow">52 Pages</span>
+            </div>
+            <div class="flex items-center gap-1.5 text-amber-400 text-sm mb-1">★★★★★ <span class="text-gray-400 text-xs font-semibold">(180+ reviews)</span></div>
+            <h3 class="font-fredoka text-xl font-bold text-gray-900 group-hover:text-brand-pink transition-colors">Cute & Cozy Sweet Treats & Snacks</h3>
+            <p class="text-xs text-brand-blue font-bold mt-0.5">By Marvin Andrew • Illustrated by Lily Sparkles</p>
+            <p class="text-gray-600 text-sm mt-3 leading-relaxed">Delicious smiling cupcakes, cheerful boba milk tea, fluffy stacked pancakes with melting syrup, and glazed donuts.</p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between gap-2">
+            <button onclick="openLookInside('Book 2: Sweet Treats & Snacks', ['assets/samples/book_2_sample_1.png', 'assets/samples/book_2_sample_2.png'])" class="bg-gray-100 hover:bg-gray-200 text-gray-700 font-fredoka text-xs px-3.5 py-2.5 rounded-full font-bold transition-colors">
+              🔍 Look Inside
+            </button>
+            <a href="https://www.amazon.com/dp/B0DCOLOR2" target="_blank" class="bg-brand-pink hover:bg-pink-600 text-white font-fredoka text-xs px-4 py-2.5 rounded-full font-bold shadow hover:shadow-md transition-all flex items-center gap-1">
+              <span>Buy on Amazon $6.99</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- BOOK 3: Dino Adventures -->
+        <div class="book-card group bg-white rounded-3xl p-5 shadow-md hover:shadow-xl border border-gray-100 transition-all duration-300 flex flex-col justify-between" data-category="dinos">
+          <div>
+            <div class="relative overflow-hidden rounded-2xl bg-emerald-50 mb-5">
+              <img src="assets/covers/book_3_front.jpg" alt="Book 3: Dino Adventures" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
+              <span class="absolute top-3 left-3 bg-brand-mint text-white font-fredoka font-bold text-xs px-3 py-1 rounded-full shadow">Series Book 3</span>
+              <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-brand-mint font-fredoka font-bold text-xs px-3 py-1 rounded-full shadow">52 Pages</span>
+            </div>
+            <div class="flex items-center gap-1.5 text-amber-400 text-sm mb-1">★★★★★ <span class="text-gray-400 text-xs font-semibold">(210+ reviews)</span></div>
+            <h3 class="font-fredoka text-xl font-bold text-gray-900 group-hover:text-brand-mint transition-colors">Cute & Cozy Dino Adventures</h3>
+            <p class="text-xs text-brand-blue font-bold mt-0.5">By Marvin Andrew • Illustrated by Lily Sparkles</p>
+            <p class="text-gray-600 text-sm mt-3 leading-relaxed">Adorable baby T-Rex explorer, gentle Stegosaurus, happy Brachiosaurus, and prehistoric volcano mazes.</p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between gap-2">
+            <button onclick="openLookInside('Book 3: Dino Adventures', ['assets/samples/book_3_sample_1.png', 'assets/samples/book_3_sample_2.png'])" class="bg-gray-100 hover:bg-gray-200 text-gray-700 font-fredoka text-xs px-3.5 py-2.5 rounded-full font-bold transition-colors">
+              🔍 Look Inside
+            </button>
+            <a href="https://www.amazon.com/dp/B0DCOLOR3" target="_blank" class="bg-brand-mint hover:bg-emerald-600 text-white font-fredoka text-xs px-4 py-2.5 rounded-full font-bold shadow hover:shadow-md transition-all flex items-center gap-1">
+              <span>Buy on Amazon $6.99</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- BOOK 4: Ocean & Under the Sea -->
+        <div class="book-card group bg-white rounded-3xl p-5 shadow-md hover:shadow-xl border border-gray-100 transition-all duration-300 flex flex-col justify-between" data-category="animals">
+          <div>
+            <div class="relative overflow-hidden rounded-2xl bg-cyan-50 mb-5">
+              <img src="assets/covers/book_4_front.jpg" alt="Book 4: Ocean Friends" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
+              <span class="absolute top-3 left-3 bg-brand-blue text-white font-fredoka font-bold text-xs px-3 py-1 rounded-full shadow">Series Book 4</span>
+              <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-brand-blue font-fredoka font-bold text-xs px-3 py-1 rounded-full shadow">52 Pages</span>
+            </div>
+            <div class="flex items-center gap-1.5 text-amber-400 text-sm mb-1">★★★★★ <span class="text-gray-400 text-xs font-semibold">(95+ reviews)</span></div>
+            <h3 class="font-fredoka text-xl font-bold text-gray-900 group-hover:text-brand-blue transition-colors">Ocean & Under the Sea Friends</h3>
+            <p class="text-xs text-brand-blue font-bold mt-0.5">By Marvin Andrew • Illustrated by Lily Sparkles</p>
+            <p class="text-gray-600 text-sm mt-3 leading-relaxed">Gentle sea turtles, smiling narwhals with seashell crowns, playful otters on kelp beds, and dolphins.</p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between gap-2">
+            <button onclick="openLookInside('Book 4: Ocean Friends', ['assets/samples/book_4_sample_1.png', 'assets/samples/book_4_sample_2.png'])" class="bg-gray-100 hover:bg-gray-200 text-gray-700 font-fredoka text-xs px-3.5 py-2.5 rounded-full font-bold transition-colors">
+              🔍 Look Inside
+            </button>
+            <a href="https://www.amazon.com/dp/B0DCOLOR4" target="_blank" class="bg-brand-blue hover:bg-blue-600 text-white font-fredoka text-xs px-4 py-2.5 rounded-full font-bold shadow hover:shadow-md transition-all flex items-center gap-1">
+              <span>Buy on Amazon $6.99</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- BOOK 5: Things That Go & Vehicles -->
+        <div class="book-card group bg-white rounded-3xl p-5 shadow-md hover:shadow-xl border border-gray-100 transition-all duration-300 flex flex-col justify-between" data-category="vehicles">
+          <div>
+            <div class="relative overflow-hidden rounded-2xl bg-amber-50 mb-5">
+              <img src="assets/covers/book_5_front.jpg" alt="Book 5: Little Vehicles" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
+              <span class="absolute top-3 left-3 bg-amber-500 text-white font-fredoka font-bold text-xs px-3 py-1 rounded-full shadow">Series Book 5</span>
+              <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-amber-600 font-fredoka font-bold text-xs px-3 py-1 rounded-full shadow">52 Pages</span>
+            </div>
+            <div class="flex items-center gap-1.5 text-amber-400 text-sm mb-1">★★★★★ <span class="text-gray-400 text-xs font-semibold">(140+ reviews)</span></div>
+            <h3 class="font-fredoka text-xl font-bold text-gray-900 group-hover:text-amber-500 transition-colors">Things That Go & Little Vehicles</h3>
+            <p class="text-xs text-brand-blue font-bold mt-0.5">By Marvin Andrew • Illustrated by Lily Sparkles</p>
+            <p class="text-gray-600 text-sm mt-3 leading-relaxed">Smiling red convertibles, friendly steam trains, airport airplanes, fire trucks, and country tractors.</p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between gap-2">
+            <button onclick="openLookInside('Book 5: Things That Go', ['assets/samples/book_5_sample_1.png'])" class="bg-gray-100 hover:bg-gray-200 text-gray-700 font-fredoka text-xs px-3.5 py-2.5 rounded-full font-bold transition-colors">
+              🔍 Look Inside
+            </button>
+            <a href="https://www.amazon.com/dp/B0DCOLOR5" target="_blank" class="bg-amber-500 hover:bg-amber-600 text-white font-fredoka text-xs px-4 py-2.5 rounded-full font-bold shadow hover:shadow-md transition-all flex items-center gap-1">
+              <span>Buy on Amazon $6.99</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- BOOK 6: Farm Friends -->
+        <div class="book-card group bg-white rounded-3xl p-5 shadow-md hover:shadow-xl border border-gray-100 transition-all duration-300 flex flex-col justify-between" data-category="animals">
+          <div>
+            <div class="relative overflow-hidden rounded-2xl bg-emerald-50 mb-5">
+              <img src="assets/covers/book_6_front.jpg" alt="Book 6: Farm Friends" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
+              <span class="absolute top-3 left-3 bg-emerald-600 text-white font-fredoka font-bold text-xs px-3 py-1 rounded-full shadow">Series Book 6</span>
+              <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-emerald-600 font-fredoka font-bold text-xs px-3 py-1 rounded-full shadow">52 Pages</span>
+            </div>
+            <div class="flex items-center gap-1.5 text-amber-400 text-sm mb-1">★★★★★ <span class="text-gray-400 text-xs font-semibold">(85+ reviews)</span></div>
+            <h3 class="font-fredoka text-xl font-bold text-gray-900 group-hover:text-emerald-600 transition-colors">Little Farm & Barnyard Friends</h3>
+            <p class="text-xs text-brand-blue font-bold mt-0.5">By Marvin Andrew • Illustrated by Lily Sparkles</p>
+            <p class="text-gray-600 text-sm mt-3 leading-relaxed">Sweet baby calves with flower crowns, fluffy woolly sheep by picket fences, and happy muddy piglets.</p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between gap-2">
+            <button onclick="openLookInside('Book 6: Farm Friends', ['assets/samples/book_6_sample_1.png'])" class="bg-gray-100 hover:bg-gray-200 text-gray-700 font-fredoka text-xs px-3.5 py-2.5 rounded-full font-bold transition-colors">
+              🔍 Look Inside
+            </button>
+            <a href="https://www.amazon.com/dp/B0DCOLOR6" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white font-fredoka text-xs px-4 py-2.5 rounded-full font-bold shadow hover:shadow-md transition-all flex items-center gap-1">
+              <span>Buy on Amazon $6.99</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- BOOK 7: Woodland Forest -->
+        <div class="book-card group bg-white rounded-3xl p-5 shadow-md hover:shadow-xl border border-gray-100 transition-all duration-300 flex flex-col justify-between" data-category="animals">
+          <div>
+            <div class="relative overflow-hidden rounded-2xl bg-orange-50 mb-5">
+              <img src="assets/covers/book_7_front.jpg" alt="Book 7: Woodland Forest" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500">
+              <span class="absolute top-3 left-3 bg-orange-500 text-white font-fredoka font-bold text-xs px-3 py-1 rounded-full shadow">Series Book 7</span>
+              <span class="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-orange-600 font-fredoka font-bold text-xs px-3 py-1 rounded-full shadow">52 Pages</span>
+            </div>
+            <div class="flex items-center gap-1.5 text-amber-400 text-sm mb-1">★★★★★ <span class="text-gray-400 text-xs font-semibold">(110+ reviews)</span></div>
+            <h3 class="font-fredoka text-xl font-bold text-gray-900 group-hover:text-orange-500 transition-colors">Woodland Forest & Cozy Creatures</h3>
+            <p class="text-xs text-brand-blue font-bold mt-0.5">By Marvin Andrew • Illustrated by Lily Sparkles</p>
+            <p class="text-gray-600 text-sm mt-3 leading-relaxed">Gentle baby foxes curling in autumn leaves, hedgehogs carrying sweet berries, fawns, and toadstool cottages.</p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between gap-2">
+            <button onclick="openLookInside('Book 7: Woodland Forest', ['assets/samples/book_7_sample_1.png'])" class="bg-gray-100 hover:bg-gray-200 text-gray-700 font-fredoka text-xs px-3.5 py-2.5 rounded-full font-bold transition-colors">
+              🔍 Look Inside
+            </button>
+            <a href="https://www.amazon.com/dp/B0DCOLOR7" target="_blank" class="bg-orange-500 hover:bg-orange-600 text-white font-fredoka text-xs px-4 py-2.5 rounded-full font-bold shadow hover:shadow-md transition-all flex items-center gap-1">
+              <span>Buy on Amazon $6.99</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE KIDS DIGITAL COLORING CORNER -->
+  <section id="coloring-corner" class="py-20 bg-gradient-to-b from-brand-cream to-pink-50/50 border-y border-pink-100">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <span class="inline-block bg-brand-yellow/30 text-amber-800 font-fredoka font-bold text-xs px-3 py-1 rounded-full mb-2">⭐ TRY IT LIVE IN YOUR BROWSER!</span>
+        <h2 class="font-fredoka text-3xl sm:text-4xl font-bold text-gray-900">Little Artist Digital Coloring Pad</h2>
+        <p class="text-gray-600 mt-2 font-medium">Pick a brush color and tap on the sweet cupcake below to color online, or download your finished masterpiece!</p>
+      </div>
+
+      <!-- Coloring Studio Card -->
+      <div class="bg-white rounded-3xl shadow-xl p-6 md:p-8 border-4 border-white max-w-3xl mx-auto">
+        <!-- Palette Controls -->
+        <div class="flex flex-wrap items-center justify-between gap-4 mb-6 pb-4 border-b border-gray-100">
+          <div>
+            <span class="text-xs font-bold text-gray-400 block mb-1 uppercase tracking-wider">Choose Color</span>
+            <div class="flex items-center gap-2" id="color-palette">
+              <button onclick="setBrushColor('#FF7B9C')" class="color-btn active w-9 h-9 rounded-full bg-[#FF7B9C] border-2 border-white shadow-sm ring-2 ring-brand-pink transform hover:scale-110 transition-transform"></button>
+              <button onclick="setBrushColor('#FFD166')" class="color-btn w-9 h-9 rounded-full bg-[#FFD166] border-2 border-white shadow-sm transform hover:scale-110 transition-transform"></button>
+              <button onclick="setBrushColor('#06D6A0')" class="color-btn w-9 h-9 rounded-full bg-[#06D6A0] border-2 border-white shadow-sm transform hover:scale-110 transition-transform"></button>
+              <button onclick="setBrushColor('#4D96FF')" class="color-btn w-9 h-9 rounded-full bg-[#4D96FF] border-2 border-white shadow-sm transform hover:scale-110 transition-transform"></button>
+              <button onclick="setBrushColor('#A06CD5')" class="color-btn w-9 h-9 rounded-full bg-[#A06CD5] border-2 border-white shadow-sm transform hover:scale-110 transition-transform"></button>
+              <button onclick="setBrushColor('#8B5A2B')" class="color-btn w-9 h-9 rounded-full bg-[#8B5A2B] border-2 border-white shadow-sm transform hover:scale-110 transition-transform"></button>
+              <button onclick="setBrushColor('#FF3366')" class="color-btn w-9 h-9 rounded-full bg-[#FF3366] border-2 border-white shadow-sm transform hover:scale-110 transition-transform"></button>
+              <button onclick="setBrushColor('#FFFFFF')" class="color-btn w-9 h-9 rounded-full bg-white border-2 border-gray-300 shadow-sm transform hover:scale-110 transition-transform" title="Eraser"></button>
+            </div>
+          </div>
+
+          <!-- Canvas Action Buttons -->
+          <div class="flex items-center gap-2">
+            <button onclick="clearCanvas()" class="text-xs font-fredoka font-bold text-gray-500 hover:text-red-500 px-3 py-2 rounded-lg bg-gray-100 hover:bg-red-50 transition-colors">
+              Reset 🔄
+            </button>
+            <button onclick="downloadArtwork()" class="text-xs font-fredoka font-bold text-white bg-brand-mint hover:bg-emerald-600 px-4 py-2 rounded-lg shadow transition-colors">
+              Save Art 💾
+            </button>
+          </div>
+        </div>
+
+        <!-- Canvas Area -->
+        <div class="relative flex justify-center bg-gray-50 rounded-2xl overflow-hidden p-2 border-2 border-dashed border-gray-200">
+          <canvas id="coloring-canvas" width="500" height="500" class="cursor-crosshair bg-white rounded-xl shadow-inner max-w-full h-auto"></canvas>
+        </div>
+
+        <p class="text-center text-xs text-gray-400 mt-4 font-medium">
+          💡 Click and drag with mouse or touch with finger to color! Just like our 52-page printed books on Amazon.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEAD MAGNET / FREE PRINTABLE PACK -->
+  <section id="free-printables" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-gradient-to-r from-brand-pink/10 via-brand-yellow/15 to-brand-mint/15 rounded-3xl p-8 sm:p-12 border-2 border-brand-pink/20 relative overflow-hidden">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div class="lg:col-span-7 space-y-4">
+            <span class="bg-brand-mint text-white font-fredoka font-bold text-xs px-3.5 py-1.5 rounded-full uppercase tracking-wider shadow-sm">Instant Download PDF</span>
+            <h2 class="font-fredoka text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">
+              Get the Free 5-Page Little Artist Starter Pack!
+            </h2>
+            <p class="text-gray-600 font-medium leading-relaxed">
+              Print at home in minutes! Includes 5 hand-crafted coloring pages from our bestselling series: Golden Puppy, Kawaii Cupcake, Baby T-Rex, Sea Turtle, and Red Convertible Car.
+            </p>
+            
+            <ul class="space-y-2 text-sm text-gray-700 font-semibold pt-1">
+              <li class="flex items-center gap-2"><span>✨</span> Print-ready standard 8.5" x 11" PDF</li>
+              <li class="flex items-center gap-2"><span>✨</span> Extra-thick 3pt outlines perfect for crayons & markers</li>
+              <li class="flex items-center gap-2"><span>✨</span> 100% free • No spam ever</li>
+            </ul>
+
+            <!-- Download & Newsletter Form -->
+            <form onsubmit="handleDownload(event)" class="pt-4 flex flex-col sm:flex-row gap-3 max-w-md">
+              <input type="email" id="subscriber-email" required placeholder="Enter parent's email address..." class="flex-1 px-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-pink font-quicksand text-sm shadow-sm">
+              <button type="submit" class="bg-brand-pink hover:bg-pink-600 text-white font-fredoka font-bold px-6 py-3 rounded-full shadow-md hover:shadow-lg transition-all text-sm whitespace-nowrap">
+                Get Free PDF 📥
+              </button>
+            </form>
+
+            <div class="pt-2">
+              <a href="free-printables/Free_5_Page_Coloring_Pack_Artist_Co.pdf" download class="text-xs text-brand-blue hover:underline font-bold inline-flex items-center gap-1">
+                <span>Or click here for immediate direct PDF download</span> ➔
+              </a>
+            </div>
+          </div>
+
+          <!-- Pack Visual Preview -->
+          <div class="lg:col-span-5 flex justify-center">
+            <div class="relative max-w-xs group">
+              <div class="bg-white p-3 rounded-2xl shadow-xl border-2 border-gray-200 transform rotate-2 group-hover:rotate-0 transition-transform duration-300">
+                <img src="assets/covers/book_2_front.jpg" alt="Free Coloring Pack" class="rounded-xl w-full h-auto">
+                <div class="p-3 text-center">
+                  <span class="font-fredoka text-sm font-bold text-gray-800">5-Page Sample Pack</span>
+                  <span class="block text-xs text-brand-mint font-bold">100% Free Printable PDF</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PINTEREST MARKETING SECTION -->
+  <section id="pinterest" class="py-20 bg-[#FFFDF9] border-t border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="inline-flex items-center gap-1.5 text-red-600 font-fredoka font-bold text-sm tracking-wider uppercase">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 0a12 12 0 0 0-4.37 23.17c-.07-.95-.13-2.42.03-3.46.14-.94.94-5.65.94-5.65s-.24-.48-.24-1.2c0-1.12.65-1.96 1.46-1.96.69 0 1.02.52 1.02 1.14 0 .7-.44 1.73-.67 2.69-.19.82.41 1.48 1.21 1.48 1.45 0 2.57-1.53 2.57-3.74 0-1.95-1.4-3.32-3.41-3.32-2.32 0-3.69 1.74-3.69 3.54 0 .7.27 1.45.61 1.86.07.08.08.15.06.24-.07.28-.21.87-.24 1-.04.16-.14.2-.31.11-1.16-.54-1.89-2.23-1.89-3.59 0-2.92 2.12-5.6 6.12-5.6 3.21 0 5.71 2.29 5.71 5.35 0 3.19-2.01 5.76-4.8 5.76-.94 0-1.82-.49-2.12-1.06l-.58 2.2c-.21.8-.77 1.8-1.15 2.42A12.01 12.01 0 1 0 12 0z"/></svg>
+          Pin With Us on Pinterest
+        </span>
+        <h2 class="font-fredoka text-3xl sm:text-4xl font-bold text-gray-900 mt-1">Save Our Toddler Coloring Ideas</h2>
+        <p class="text-gray-600 mt-2 font-medium">Pin these helpful guides directly to your Toddler Activities, Homeschool Crafts, or Kids Gift Idea boards!</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <!-- Pin 1 -->
+        <div class="bg-white rounded-3xl p-5 shadow-lg border border-gray-100 flex flex-col justify-between">
+          <div class="overflow-hidden rounded-2xl mb-4 bg-orange-50">
+            <img src="assets/pinterest/pin_1_bold_easy_coloring.jpg" alt="Pinterest Pin 1" class="w-full h-auto object-cover hover:scale-102 transition-transform duration-300">
+          </div>
+          <div class="flex items-center justify-between pt-2">
+            <div>
+              <span class="font-fredoka text-base font-bold text-gray-900 block">Frustration-Free Toddler Art</span>
+              <span class="text-xs text-gray-500">2:3 Vertical Pin (1000x1500)</span>
+            </div>
+            <a href="https://pinterest.com/pin/create/button/?url=https://artistco.com&media=assets/pinterest/pin_1_bold_easy_coloring.jpg&description=Frustration-free%20coloring%20books%20for%20kids%20ages%203-8%20with%20thick%203pt%20lines%20by%20Artist%20Co." target="_blank" class="bg-red-600 hover:bg-red-700 text-white font-fredoka font-bold text-xs px-4 py-2.5 rounded-full shadow flex items-center gap-1.5 transition-colors">
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M12 0a12 12 0 0 0-4.37 23.17c-.07-.95-.13-2.42.03-3.46.14-.94.94-5.65.94-5.65s-.24-.48-.24-1.2c0-1.12.65-1.96 1.46-1.96.69 0 1.02.52 1.02 1.14 0 .7-.44 1.73-.67 2.69-.19.82.41 1.48 1.21 1.48 1.45 0 2.57-1.53 2.57-3.74 0-1.95-1.4-3.32-3.41-3.32-2.32 0-3.69 1.74-3.69 3.54 0 .7.27 1.45.61 1.86.07.08.08.15.06.24-.07.28-.21.87-.24 1-.04.16-.14.2-.31.11-1.16-.54-1.89-2.23-1.89-3.59 0-2.92 2.12-5.6 6.12-5.6 3.21 0 5.71 2.29 5.71 5.35 0 3.19-2.01 5.76-4.8 5.76-.94 0-1.82-.49-2.12-1.06l-.58 2.2c-.21.8-.77 1.8-1.15 2.42A12.01 12.01 0 1 0 12 0z"/></svg>
+              <span>Save to Pinterest</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Pin 2 -->
+        <div class="bg-white rounded-3xl p-5 shadow-lg border border-gray-100 flex flex-col justify-between">
+          <div class="overflow-hidden rounded-2xl mb-4 bg-blue-50">
+            <img src="assets/pinterest/pin_2_series_showcase.jpg" alt="Pinterest Pin 2" class="w-full h-auto object-cover hover:scale-102 transition-transform duration-300">
+          </div>
+          <div class="flex items-center justify-between pt-2">
+            <div>
+              <span class="font-fredoka text-base font-bold text-gray-900 block">7-Book Series Showcase</span>
+              <span class="text-xs text-gray-500">2:3 Vertical Pin (1000x1500)</span>
+            </div>
+            <a href="https://pinterest.com/pin/create/button/?url=https://artistco.com&media=assets/pinterest/pin_2_series_showcase.jpg&description=7%20Cute%20and%20Cozy%20Coloring%20Books%20Every%20Toddler%20Loves%20by%20Artist%20Co." target="_blank" class="bg-red-600 hover:bg-red-700 text-white font-fredoka font-bold text-xs px-4 py-2.5 rounded-full shadow flex items-center gap-1.5 transition-colors">
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M12 0a12 12 0 0 0-4.37 23.17c-.07-.95-.13-2.42.03-3.46.14-.94.94-5.65.94-5.65s-.24-.48-.24-1.2c0-1.12.65-1.96 1.46-1.96.69 0 1.02.52 1.02 1.14 0 .7-.44 1.73-.67 2.69-.19.82.41 1.48 1.21 1.48 1.45 0 2.57-1.53 2.57-3.74 0-1.95-1.4-3.32-3.41-3.32-2.32 0-3.69 1.74-3.69 3.54 0 .7.27 1.45.61 1.86.07.08.08.15.06.24-.07.28-.21.87-.24 1-.04.16-.14.2-.31.11-1.16-.54-1.89-2.23-1.89-3.59 0-2.92 2.12-5.6 6.12-5.6 3.21 0 5.71 2.29 5.71 5.35 0 3.19-2.01 5.76-4.8 5.76-.94 0-1.82-.49-2.12-1.06l-.58 2.2c-.21.8-.77 1.8-1.15 2.42A12.01 12.01 0 1 0 12 0z"/></svg>
+              <span>Save to Pinterest</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT US & MARVIN ANDREW -->
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-gradient-to-r from-blue-50/60 to-purple-50/60 rounded-3xl p-8 sm:p-12 border border-gray-100 shadow-sm flex flex-col md:flex-row items-center gap-8">
+        
+        <div class="w-40 h-40 flex-shrink-0">
+          <img src="assets/logos/artist_co_round.jpg" alt="Marvin Andrew & Artist Co." class="w-full h-full object-cover rounded-full shadow-lg border-4 border-white">
+        </div>
+
+        <div class="space-y-4 text-center md:text-left">
+          <span class="text-brand-lavender font-fredoka font-bold text-xs uppercase tracking-wider">Meet the Creator</span>
+          <h2 class="font-fredoka text-3xl font-bold text-gray-900">About Marvin Andrew & Artist Co.</h2>
+          <p class="text-gray-600 font-medium leading-relaxed">
+            Hi! I'm <b>Marvin Andrew</b>, founder of <b>Artist Co.</b> and publisher of the <i>Little Artists Bold & Easy Series</i>. Our mission is simple: to create wholesome, tactile, screen-free coloring books that children actually enjoy without getting frustrated by tiny, complex lines.
+          </p>
+          <p class="text-gray-600 font-medium leading-relaxed">
+            Partnered with our illustrator pen name <b>Lily Sparkles</b>, every single page is hand-crafted with extra-thick 3pt outlines, high-contrast black line art, and single-sided bleed protection so children can color with confidence.
+          </p>
+          <div class="pt-2 flex flex-wrap gap-4 justify-center md:justify-start">
+            <a href="#catalog" class="text-sm font-fredoka font-bold text-brand-blue hover:underline">Browse the Amazon Bookshelf ➔</a>
+            <span class="text-gray-300">•</span>
+            <a href="mailto:contact@artistco.com" class="text-sm font-fredoka font-bold text-gray-600 hover:text-gray-900">Get in Touch with Marvin ➔</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LOOK INSIDE MODAL -->
+  <div id="preview-modal" class="fixed inset-0 z-50 hidden bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-2xl w-full p-6 shadow-2xl relative max-h-[90vh] flex flex-col animate-scaleUp">
+      <div class="flex items-center justify-between pb-4 border-b border-gray-100">
+        <div>
+          <span class="text-xs font-bold text-brand-pink block uppercase tracking-wider">Sample Pages Look Inside</span>
+          <h3 id="modal-title" class="font-fredoka text-xl font-bold text-gray-900">Book Preview</h3>
+        </div>
+        <button onclick="closeLookInside()" class="w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center text-gray-600 font-bold transition-colors">
+          ✕
+        </button>
+      </div>
+
+      <div class="py-6 flex-1 overflow-y-auto flex flex-col items-center gap-6" id="modal-content">
+        <!-- Sample images injected via JS -->
+      </div>
+
+      <div class="pt-4 border-t border-gray-100 flex items-center justify-between">
+        <span class="text-xs text-gray-400 font-semibold">Printed on thick, acid-free white paper (No Bleed)</span>
+        <button onclick="closeLookInside()" class="bg-brand-pink text-white font-fredoka font-bold text-sm px-6 py-2 rounded-full">
+          Close Preview
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-brand-dark text-white py-12 border-t border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8 pb-8 border-b border-gray-800">
+        <!-- Brand Info -->
+        <div class="md:col-span-2 space-y-3">
+          <div class="flex items-center gap-3">
+            <img src="assets/logos/artist_co_round.jpg" class="w-10 h-10 rounded-full border border-gray-600">
+            <span class="font-fredoka text-2xl font-bold text-white">Artist Co.</span>
+          </div>
+          <p class="text-gray-400 text-sm max-w-sm">
+            Dedicated to joyful, screen-free learning and creative confidence for young children. Published independently by Marvin Andrew.
+          </p>
+          <p class="text-xs text-gray-500">
+            Titles registered under the <i>Little Artists Bold & Easy Series</i>.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="font-fredoka text-base font-bold text-white mb-3">Explore</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li><a href="#catalog" class="hover:text-white transition-colors">All 7 Coloring Books</a></li>
+            <li><a href="#coloring-corner" class="hover:text-white transition-colors">Interactive Kids Pad</a></li>
+            <li><a href="#free-printables" class="hover:text-white transition-colors">Free Printable Pack (PDF)</a></li>
+            <li><a href="#pinterest" class="hover:text-white transition-colors">Pinterest Board Ideas</a></li>
+          </ul>
+        </div>
+
+        <!-- Amazon Details -->
+        <div>
+          <h4 class="font-fredoka text-base font-bold text-white mb-3">Amazon Store</h4>
+          <ul class="space-y-2 text-sm text-gray-400">
+            <li><span>Author: Marvin Andrew</span></li>
+            <li><span>Series: Lily Sparkles</span></li>
+            <li><span>Trim: 8.5" x 11" Standard</span></li>
+            <li><span>Prime Eligible 🚚</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500 gap-4">
+        <p>© 2026 Artist Co. • Marvin Andrew. All Rights Reserved.</p>
+        <p>Amazon, Kindle, and all related logos are trademarks of Amazon.com, Inc. or its affiliates.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
